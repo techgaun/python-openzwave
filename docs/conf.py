@@ -29,9 +29,9 @@ import sys, os
 #sys.path.insert(1, os.path.abspath('../python_openzwave_lib.egg-info'))
 
 if os.environ.get('READTHEDOCS') == "True":
-    sys.path.insert(0, os.path.abspath('../src-api/openzwave'))
-    sys.path.insert(0, os.path.abspath('../src-lib/libopenzwave'))
-    sys.path.insert(0, os.path.abspath('../src-manager/pyozwman'))
+    sys.path.insert(0, os.path.abspath('../src-api/'))
+    sys.path.insert(0, os.path.abspath('../src-lib/'))
+    sys.path.insert(0, os.path.abspath('../src-manager/'))
 sys.path.insert(1, os.path.abspath('..'))
 from pyozw_version import pyozw_version, pyozw_version_short
 
