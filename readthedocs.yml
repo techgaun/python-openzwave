@@ -1,0 +1,6 @@
+conda:
+  file: docs/conda-env.yml
+
+python:
+  version: 3.5
+  pip_install: true
